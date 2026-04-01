@@ -2,7 +2,7 @@ const loginScreen = document.getElementById('loginScreen');
 const app = document.getElementById('app');
 const form = document.getElementById('loginForm');
 const error = document.getElementById('loginError');
-const PASSWORD = 'IDCAN2026';
+const PASSWORD = 'idecan2026';
 
 function showApp() {
   loginScreen.classList.add('hidden');
