@@ -22,7 +22,7 @@ form.addEventListener('submit', function(e){
     error.textContent = 'Digite um e-mail.';
     return;
   }
-  if (password !== PASSWORD) {
+ if (password !== "idecan2026") {
     error.textContent = 'Senha incorreta.';
     return;
   }
