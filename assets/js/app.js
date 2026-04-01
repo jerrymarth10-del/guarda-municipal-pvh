@@ -26,7 +26,8 @@ form.addEventListener('submit', function(e){
     error.textContent = 'Senha incorreta.';
     return;
   }
- showApp();
+ sessionStorage.setItem('jr_portal_logged', 'true');
+window.location.href = 'painel.html';
 });
 
 document.getElementById('logoutBtn').addEventListener('click', function(){
